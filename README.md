@@ -18,13 +18,14 @@ A processing log, csv file containing records of processed files (within time/da
 
 ## Requirements
 
-#### This tool is intended to be run using Python. A Windows executable with the latest updates be distributed from time to time.
 Requirements - To install the required Python libraries, use the command: pip install -r requirements.txt
+**This tool is intended to be run using Python. A Windows executable with the latest updates will be distributed from time to time.**
+
 ## Usage
 To open GUI, from the CLI run 
 
     py iCatch_v1.X.pyw
-
+or double-click the .pyw file from your file explorer.
 1.	Input case information.
 2.	Select path of Cache.sqlite database which is found at: private/var/mobile/Library/Caches/com.apple.routined/Cache.sqlite
 3.	Select desired color for pin and accuracy ring.
