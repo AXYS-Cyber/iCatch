@@ -18,8 +18,12 @@ A processing log, csv file containing records of processed files (within time/da
 
 ## Requirements
 
+#### This tool is intended to be run using Python. A Windows executable with the latest updates be distributed from time to time.
 Requirements - To install the required Python libraries, use the command: pip install -r requirements.txt
 ## Usage
+To open GUI, from the CLI run 
+
+    py iCatch_v1.X.pyw
 
 1.	Input case information.
 2.	Select path of Cache.sqlite database which is found at: private/var/mobile/Library/Caches/com.apple.routined/Cache.sqlite
@@ -27,6 +31,8 @@ Requirements - To install the required Python libraries, use the command: pip in
 4.	Select radius filter to limit the maximum radius of horizontal accuracy.
 5.	Select Date/Time filter options. This option is enabled by default. 
 a.	It is highly recommended to use this option as the database contains tens of thousands of points, and can have thousands of points in a short timeframe.
+
+Date triage function will quickly display the dates which are stored within the database, along with the number of records for those dates.
 
 ### Google Earth Pro Usage:
 •	The KMZ file should be used with Google Earth Pro desktop version. The file is loaded into temporary places. Each point has two items: the "Pin" and the horizontal accuracy overlay. Only the pin is loaded automatically to save system resources.
