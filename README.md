@@ -47,3 +47,6 @@ a.	It is highly recommended to use this option as the database contains tens of 
 
 ## Acknowledgements
 For more information about the Cache.sqlite database, including speed artifacts, check out the amazing work by Scott Koenig at: https://theforensicscooter.com/2021/09/22/iphone-device-speeds-in-cache-sqlite-zrtcllocationmo/
+
+## Issues
+I'm still trying to figure out GitHub, so if you come across an issue or have suggestions on a better way to do things, please let me know!
