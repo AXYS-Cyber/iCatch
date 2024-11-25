@@ -23,6 +23,8 @@ To install the required Python libraries, use the command: pip install -r requir
 **This tool is intended to be run using Python. A Windows executable with the latest updates will be distributed from time to time.**
 
 ## Usage
+This tool was designed with Python and can be run as a windowless Python file or as a Windows executable file. The executable file will be updated from time to time and may not be the latest release.
+
 To open GUI, from the CLI run 
 
     py iCatch_v1.X.pyw
@@ -47,3 +49,6 @@ a.	It is highly recommended to use this option as the database contains tens of 
 
 ## Acknowledgements
 For more information about the Cache.sqlite database, including speed artifacts, check out the amazing work by Scott Koenig at: https://theforensicscooter.com/2021/09/22/iphone-device-speeds-in-cache-sqlite-zrtcllocationmo/
+
+## Issues
+I'm still trying to figure out GitHub, so if you come across an issue or have suggestions on a better way to do things, please let me know!
