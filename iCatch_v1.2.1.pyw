@@ -192,7 +192,7 @@ def generate_outputs():
     # Generate log and hash values for CSV and KMZ files
     log_file = os.path.join(output_dir, f"{case_num}_{datetime.now().strftime('%Y%m%d_%H%M')}_log.txt")
     with open(log_file, 'w') as log:
-        log.write(f"***********************************************************************\n***********************************************************************\n** iCatch - iOS Cache Analysis for Tracking Coordinates History v1.1 **\n** Created by: \tAaron Willmarth, CFCE,\t\t\t\t\t\t\t\t **\n**\t\t\t\tAXYS Cyber Solutions\t\t\t\t\t\t\t\t **\n**\t\t\t\thttps://github.com/AXYS-Cyber/iCatch\t\t\t\t **\n***********************************************************************\n***********************************************************************\n\n\n")
+        log.write(f"***********************************************************************\n***********************************************************************\n** iCatch - iOS Cache Analysis for Tracking Coordinates History v1.2.1 **\n** Created by: \tAaron Willmarth, CFCE,\t\t\t\t\t\t\t\t **\n**\t\t\t\tAXYS Cyber Solutions\t\t\t\t\t\t\t\t **\n**\t\t\t\thttps://github.com/AXYS-Cyber/iCatch\t\t\t\t **\n***********************************************************************\n***********************************************************************\n\n\n")
 
         log.write(f"Date and Time: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
         log.write(f"Target File: {db_var.get()}\n")
@@ -355,7 +355,7 @@ def create_kmz(df, kmz_file, org, examiner, case_num, device_info):
 ## GUI Setup ##
 ###############
 window = tk.Tk()
-window.title("iCatch - iOS Cache Analysis for Tracking Coordinates History, v1.2")
+window.title("iCatch - iOS Cache Analysis for Tracking Coordinates History, v1.2.1")
 
 #Sets the initial size of the window
 initial_width = 700
@@ -409,7 +409,7 @@ def show_about():
     about_window.resizable(False, False)
     
     # Add text to the "About" window
-    about_text = """iCatch - iOS Cache Analysis for Tracking Coordinates History, v1.2
+    about_text = """iCatch - iOS Cache Analysis for Tracking Coordinates History, v1.2.1
     Created by: Aaron Willmarth, CFCE,
                         AXYS Cyber Solutions
         See https://github.com/AXYS-Cyber/iCatch for license information.
