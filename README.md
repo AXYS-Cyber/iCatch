@@ -33,8 +33,11 @@ or double-click the .pyw file from your file explorer.
 2.	Select the path of the exported **Cache.sqlite** database which is found at: *private/var/mobile/Library/Caches/com.apple.routined/Cache.sqlite* (please ensure the shm and wal files are included in the same directory so all records are processed).
 3.	Select the desired color for the pin and accuracy ring.
 4.	Select a radius filter to limit the maximum radius of horizontal accuracy.
-5.	Select the Date/Time filter options. This option is enabled by default. 
-a.	It is highly recommended to use this option as the database contains tens of thousands of points, and can have thousands of points in a short timeframe.
+5.	Select the Date/Time filter options. This option is enabled by default.
+
+   
+     a.	It is highly recommended to use this option as the database contains tens of thousands of points, and can have thousands of points in a short timeframe.
+6.	Select Include Speed and Direction if these datapoints are of interest. These values include reported device speed, output in MPH, and reported "Course" direction, output with degrees and cardinal direction. Reported values that fall in a negative range are considered invalid and are noted as such.  	
 
 *The **Triage Dates** function will quickly display the dates that are stored within the database, along with the number of records for those dates.*
 
